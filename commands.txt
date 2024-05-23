@@ -1,0 +1,19 @@
+You can run this as a root user or as an Ubuntu user.
+In this case all commands were run as a root user.
+
+first I switched from Ubuntu >> Root user
+sudo su
+
+I update the EC2 instance dependencies and default Libraries
+apt update -Y
+
+I installed Apache web server
+apt install apache2 -Y
+
+I changed directory to the Apache directory where the index.html file for the apache installation is located
+cd var/www/html
+
+I downloaded the website file I want to host on the EC2 instance
+wget --content-disposition https://html5up.net/paradigm-shift/download
+apt isntall unzip
+unzip html5up.net/paradigm-shift.zip
