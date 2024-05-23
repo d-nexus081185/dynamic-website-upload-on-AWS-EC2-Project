@@ -18,5 +18,7 @@ wget --content-disposition https://html5up.net/paradigm-shift/download
 apt isntall unzip
 unzip html5up.net/paradigm-shift.zip
 
+cp -r [folder-name]/* /var/www/html/
+
 Copy and paste the public IP of the EC2 instance to any web browser 
 The contents of the index.html file will be displayed fully.
